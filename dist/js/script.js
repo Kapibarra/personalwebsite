@@ -68,7 +68,7 @@
 		$('.a-pagepiling').pagepiling({
 			scrollingSpeed: 280,
 			menu: '#menu, #menuMain',
-			anchors: ['Intro', 'Services', 'Projects', 'Awards', 'Experience', 'Clients', 'Testimonials', 'Contact'],
+			anchors: ['Intro', 'Services', 'Projects', 'Technologies', 'Clients', 'Testimonials', 'Contact'],
 			loopTop: false,
 			loopBottom: false,
 			navigation: {
