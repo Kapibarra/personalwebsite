@@ -674,6 +674,7 @@ label.error {
 .mail-link:hover {
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .phone-link {
