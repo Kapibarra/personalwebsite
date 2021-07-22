@@ -120,6 +120,10 @@ a.text-primary:hover {
     color: #b99e64 !important;
 }
 
+.big-text {
+    font-size: 2rem;
+}
+
 .text-success,
 a.text-success:hover {
     color: #5ca595 !important;
