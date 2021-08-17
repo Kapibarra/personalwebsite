@@ -346,6 +346,31 @@ label.error {
     display: none;
 }
 
+.terms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.terms input {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#sendNew:disabled {
+    cursor: not-allowed;
+    color: #3c6b61;
+    background: #7ad8c4;
+    opacity: 0.3;
+}
+
+#sendNewModal:disabled {
+    cursor: not-allowed;
+    color: #3c6b61;
+    background: #7ad8c4;
+    opacity: 0.3;
+}
+
 
 /* 1.5 Animation */
 

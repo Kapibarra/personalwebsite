@@ -815,7 +815,11 @@
                                         <div class="message text-success success-message">Ваше сообщение успешно отправлено...</div>
                                         <div class="message text-danger error-message">Упс... Что - то пошло не так</div>
                                         <div class="control-btn">
-                                            <button class="btn btn-success" type="submit">Отправить</button>
+                                            <button class="btn btn-success" type="submit" id="sendNew">Отправить</button>
+                                        </div>
+                                        <div class="terms">
+                                            <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
+                                            <a class="private-policy" href="policy\Политика конфиденциальности.docx">Я согласен (-на) на обработку моих персональных данных</a>
                                         </div>
 
                                     </form>
@@ -868,8 +872,13 @@
                         <div class="message text-success success-message">Ваше сообщение успешно отправленно...</div>
                         <div class="message text-danger error-message">Упс... Что - то пошло не так.</div>
                         <div class="control-btn text-right">
-                            <button type="submit" class="btn btn-success">Отправить</button>
+                            <button type="submit" class="btn btn-success" id="sendNewModal">Отправить</button>
                         </div>
+                        <div class="terms">
+                            <input type="checkbox" checked onchange="document.getElementById('sendNewModal').disabled = !this.checked;" />
+                            <a class="private-policy" href="policy\Политика конфиденциальности.docx">Я согласен (-на) на обработку моих персональных данных</a>
+                        </div>
+
                     </form>
                 </div>
             </div>
