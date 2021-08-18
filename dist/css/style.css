@@ -1119,6 +1119,7 @@ label.error {
     color: #111111;
     text-transform: uppercase;
     letter-spacing: .025em;
+    min-height: 58px;
 }
 
 .text-white .slide-title-sub {
@@ -1501,7 +1502,7 @@ label.error {
 }
 
 .slide-descr-projects {
-    min-height: 13.33333333em;
+    min-height: 14.33333333em;
     margin-bottom: 1.875rem;
 }
 
