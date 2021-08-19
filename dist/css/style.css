@@ -1644,7 +1644,7 @@ label.error {
 }
 
 .experience-item {
-    padding-top: 1.625rem;
+    padding-top: 0.5rem;
 }
 
 .experience-item-company,
@@ -1666,7 +1666,7 @@ label.error {
 
 .experience-item-descr {
     margin-top: 2px;
-    min-height: 5em;
+    min-height: 2em;
 }
 
 .company-blue {
